@@ -1,17 +1,22 @@
 Thank you for get CakePHP ACL sample programs by 256hax original.
-You can easy to study and setup CakePHP ACL when you use these programs.
+You can easy to study and setup CakePHP ACL if you use these programs.
+I was a little bit custom base on CakePHP ACL Tutorial.
+
+256haxオリジナルのCakePHP勉強用ACLのサンプルプログラムです。
+基本的にCakePHPのチュートリアルをベースに作成したもので、
+なるべく余計なカスタムを加えずに最小構成にしてあります。
 
 
 [Systems]
   This is example. You should ignore.
 
   - MacBook Air x Mac OS SnowLeopard
-    - MAMP
+    - MAMP 2.0.5 for Mac
       - Apache 2.2.20 (Unix)
       - MySQL 5.5.9
       - PHP 5
         - CakePHP 1.3.13
-        - Alaxos Plugin ACL 1.0.7
+          - Alaxos Plugin ACL 1.0.7
 
 
 [Installations]
@@ -19,7 +24,7 @@ You can easy to study and setup CakePHP ACL when you use these programs.
   2. Copy and paste then excute "/localhost.sql" on your MySQL server.
   3. Setup your database settings "/app/config/database.php".
   4. Access the login page "http://[yourdomain]/".
-  5. Login to "username:admin", "password:a".
+  5. Login "username:admin", "password:a".
   6. enjoy it!
   
 
@@ -30,3 +35,12 @@ You can easy to study and setup CakePHP ACL when you use these programs.
   ４．「http://あなたのドメイン/」にアクセスしてログインページを表示します。
   ５．「username：admin」「password:a」でログインします。
   ６．ログインできたら成功です！
+
+
+[Relevant Documents]
+  1. Simple Acl controlled Application :: Tutorials & Examples :: The Manual :: 1.3 Collection
+     http://book.cakephp.org/view/1543/Simple-Acl-controlled-Application
+  2. Alaxos - CakePHP - Plugin ACL
+     http://www.alaxos.net/blaxos/pages/view/plugin_acl
+  3. ACL を制御するシンプルなアプリケーション :: 開発例 :: マニュアル :: 1.3コレクション
+     http://book.cakephp.org/ja/view/1543/ACL-%E3%82%92%E5%88%B6%E5%BE%A1%E3%81%99%E3%82%8B%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3
